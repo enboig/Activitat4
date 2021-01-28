@@ -6,6 +6,7 @@ public class Dau {
 
 	private int cares = 0;
 	private Random rand;
+	private int resultat = 0;
 
 	public Dau() {
 		this.cares = 6;
@@ -17,7 +18,12 @@ public class Dau {
 	}
 
 	public int tirada() {
-		return rand.nextInt(cares) + 1;
+		resultat = rand.nextInt(cares) + 1;
+		return this.resultat;
+	}
+	
+	public int resultat() {
+		return this.resultat;
 	}
 
 	public static void main(String[] args) {
