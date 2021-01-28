@@ -21,14 +21,16 @@ public class Dau {
 		resultat = rand.nextInt(cares) + 1;
 		return this.resultat;
 	}
-	
+
 	public int resultat() {
 		return this.resultat;
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println("Anem a jugar!");
+		Dau d = new Dau();
+		System.out.println("la primera tirada és: " + d.tirada());
 	}
 
 }
