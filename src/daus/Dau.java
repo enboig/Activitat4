@@ -25,6 +25,10 @@ public class Dau {
 	public int resultat() {
 		return this.resultat;
 	}
+	
+	public void trampes(int i) {
+		this.resultat = i;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
